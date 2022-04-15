@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D60457912809D6DE00D697C4 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60457902809D6DE00D697C4 /* HomeViewModel.swift */; };
+		D60457942809DB0F00D697C4 /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60457932809DB0F00D697C4 /* Coffee.swift */; };
+		D6A1F24A2809D661006D4200 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A1F2492809D661006D4200 /* HomeView.swift */; };
 		D6CDB4522809D19100C47A9A /* DeepLinkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CDB4512809D19100C47A9A /* DeepLinkApp.swift */; };
 		D6CDB4542809D19100C47A9A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CDB4532809D19100C47A9A /* ContentView.swift */; };
 		D6CDB4562809D19100C47A9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6CDB4552809D19100C47A9A /* Assets.xcassets */; };
@@ -14,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D60457902809D6DE00D697C4 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		D60457932809DB0F00D697C4 /* Coffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee.swift; sourceTree = "<group>"; };
+		D6A1F2492809D661006D4200 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		D6CDB44E2809D19100C47A9A /* DeepLink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeepLink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6CDB4512809D19100C47A9A /* DeepLinkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLinkApp.swift; sourceTree = "<group>"; };
 		D6CDB4532809D19100C47A9A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +38,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D60457922809D6E700D697C4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D60457902809D6DE00D697C4 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D60457952809DB1700D697C4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D60457932809DB0F00D697C4 /* Coffee.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D6A1F24B2809D66F006D4200 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D6A1F2492809D661006D4200 /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		D6CDB4452809D19100C47A9A = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +81,9 @@
 		D6CDB4502809D19100C47A9A /* DeepLink */ = {
 			isa = PBXGroup;
 			children = (
+				D60457952809DB1700D697C4 /* Model */,
+				D60457922809D6E700D697C4 /* ViewModel */,
+				D6A1F24B2809D66F006D4200 /* View */,
 				D6CDB4512809D19100C47A9A /* DeepLinkApp.swift */,
 				D6CDB4532809D19100C47A9A /* ContentView.swift */,
 				D6CDB4552809D19100C47A9A /* Assets.xcassets */,
@@ -137,8 +170,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6A1F24A2809D661006D4200 /* HomeView.swift in Sources */,
 				D6CDB4542809D19100C47A9A /* ContentView.swift in Sources */,
 				D6CDB4522809D19100C47A9A /* DeepLinkApp.swift in Sources */,
+				D60457912809D6DE00D697C4 /* HomeViewModel.swift in Sources */,
+				D60457942809DB0F00D697C4 /* Coffee.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
