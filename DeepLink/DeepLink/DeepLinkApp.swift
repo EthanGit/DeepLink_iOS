@@ -27,3 +27,5 @@ struct DeepLinkApp: App {
     }
     
 }
+
+// deeplinkapp://home search settings

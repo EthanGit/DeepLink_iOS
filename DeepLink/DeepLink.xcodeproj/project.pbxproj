@@ -19,6 +19,7 @@
 /* Begin PBXFileReference section */
 		D60457902809D6DE00D697C4 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		D60457932809DB0F00D697C4 /* Coffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee.swift; sourceTree = "<group>"; };
+		D60457962809E07E00D697C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		D6A1F2492809D661006D4200 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		D6CDB44E2809D19100C47A9A /* DeepLink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeepLink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6CDB4512809D19100C47A9A /* DeepLinkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLinkApp.swift; sourceTree = "<group>"; };
@@ -81,6 +82,7 @@
 		D6CDB4502809D19100C47A9A /* DeepLink */ = {
 			isa = PBXGroup;
 			children = (
+				D60457962809E07E00D697C4 /* Info.plist */,
 				D60457952809DB1700D697C4 /* Model */,
 				D60457922809D6E700D697C4 /* ViewModel */,
 				D6A1F24B2809D66F006D4200 /* View */,
@@ -305,6 +307,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"DeepLink/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DeepLink/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -333,6 +336,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"DeepLink/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DeepLink/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
