@@ -11,27 +11,34 @@ struct HomeView: View {
     
     @EnvironmentObject var homeViewModel: HomeViewModel
 
+    init() {
+        UITabBar.appearance().backgroundColor = UIColor.gray
+    }
+    
     var body: some View {
         
         TabView(selection: $homeViewModel.currentTab) {
             
-            Text("Home")
+            Color.gray
                 .tag(Tab.home)
                 .tabItem {
                     Image(systemName: "house.fill")
+                    Text("Home")
                 }
             
             SearchView()
                 .environmentObject(homeViewModel)
                 .tag(Tab.search)
                 .tabItem {
-                    Image(systemName: "house.circle")
+                    Image(systemName: "magnifyingglass")
+                    Text("Search")
                 }
             
-            Text("Settings")
+            Color.brown
                 .tag(Tab.settings)
                 .tabItem {
                     Image(systemName: "gearshape.fill")
+                    Text("Settings")
                 }
         }
         
@@ -79,7 +86,7 @@ struct SearchView: View {
                     }
                 }
             }
-            .navigationTitle("Search")
+            .navigationTitle("菜單")
         }
     }
     

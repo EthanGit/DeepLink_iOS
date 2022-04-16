@@ -22,18 +22,18 @@ class HomeViewModel: ObservableObject {
         } else if host == Tab.settings.rawValue {
             currentTab = .settings
         } else {
-            return checkInternalLinks(host: host)
+            return checkDeepLinks(host: host)
         }
         return true
     }
     
-    func checkInternalLinks(host: String) -> Bool {
+    func checkDeepLinks(host: String) -> Bool {
         
         if let index = coffees.firstIndex(where: { coffee in
             return coffee.id == host
         }){
             currentTab = .search
-            // setting nav Link selection
+            // setting Link selection
             currentDetailPage = coffees[index].id
             
             return true
